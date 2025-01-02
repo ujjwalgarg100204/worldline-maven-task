@@ -14,7 +14,7 @@ class LoginAutomationTest {
   @Test
   void testPositiveLogin() {
     // Set up the WebDriver
-    System.setProperty("webdriver.chrome.driver", "chromedriver");
+    System.setProperty("webdriver.chrome.driver", "/home/ujjwalgarg/Downloads/worldline/tools/chromedriver-linux64/chromedriver");
 
     // Configure ChromeOptions for headless mode
     WebDriver driver = getWebDriver();
