@@ -40,6 +40,12 @@
       <artifactId>selenium-java</artifactId>
       <version>4.12.0</version>
     </dependency>
+    <!-- CDP Dependency -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-devtools-v131</artifactId>
+      <version>4.27.0</version>
+    </dependency>
   </dependencies>
 
   <build>
